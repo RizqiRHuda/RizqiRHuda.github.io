@@ -1,0 +1,8 @@
+- hero section (berikan gambar untuk foto diri, gunakan api image free terlebih dahulu), dan ada button download cv
+- about me: deskripsi diri, skills berupa badge" atau desain lain, tech stack lengkap dengan icon" technya : React, Node.js, Express, Laravel, PHP,  Python, MySQL, MongoDB.
+- education: gunakan array agar dinamis jumlah pendidikannya nanti yang terdiri dari jenjang dan jurusan, waktu tempuh (tahun x - tahun y), instutusi, ada childnya terkait dengan penjelasan selama pendidikan itu berupa list
+- organization experience: posisi/jabatan, organisasinya apa, masanya kapan, di kota apa
+- work experience: posisi/pekerjaan, nama pt, jenis (full time, internship, dll), waktu, di kota mana, list dari jobdesk atau prestasi
+- project: title, description, tech stack, repository, dll
+- contact person (get in touch)
+- footer
