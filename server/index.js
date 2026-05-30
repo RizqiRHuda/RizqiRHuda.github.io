@@ -984,8 +984,8 @@ var home_default = UNSAFE_withComponentProps(function Home() {
 //#region \0virtual:react-router/server-manifest
 var server_manifest_default = {
 	"entry": {
-		"module": "/assets/entry.client-DPpfOceV.js",
-		"imports": ["/assets/jsx-runtime-B2AOyWuI.js"],
+		"module": "RizqiRHuda.github.ioassets/entry.client-fi5B16cB.js",
+		"imports": ["RizqiRHuda.github.ioassets/jsx-runtime-Dr53Gs-8.js"],
 		"css": []
 	},
 	"routes": {
@@ -1002,9 +1002,9 @@ var server_manifest_default = {
 			"hasClientMiddleware": false,
 			"hasDefaultExport": true,
 			"hasErrorBoundary": true,
-			"module": "/assets/root-BtZRC7_M.js",
-			"imports": ["/assets/jsx-runtime-B2AOyWuI.js"],
-			"css": ["/assets/root-D0a0YSxm.css"],
+			"module": "RizqiRHuda.github.ioassets/root-CyhptmsN.js",
+			"imports": ["RizqiRHuda.github.ioassets/jsx-runtime-Dr53Gs-8.js"],
+			"css": ["RizqiRHuda.github.ioassets/root-D0a0YSxm.css"],
 			"clientActionModule": void 0,
 			"clientLoaderModule": void 0,
 			"clientMiddlewareModule": void 0,
@@ -1023,8 +1023,8 @@ var server_manifest_default = {
 			"hasClientMiddleware": false,
 			"hasDefaultExport": true,
 			"hasErrorBoundary": false,
-			"module": "/assets/home-Ce_T9ZhZ.js",
-			"imports": ["/assets/jsx-runtime-B2AOyWuI.js"],
+			"module": "RizqiRHuda.github.ioassets/home-SBV5Gd3D.js",
+			"imports": ["RizqiRHuda.github.ioassets/jsx-runtime-Dr53Gs-8.js"],
 			"css": [],
 			"clientActionModule": void 0,
 			"clientLoaderModule": void 0,
@@ -1032,8 +1032,8 @@ var server_manifest_default = {
 			"hydrateFallbackModule": void 0
 		}
 	},
-	"url": "/assets/manifest-9c87068a.js",
-	"version": "9c87068a",
+	"url": "RizqiRHuda.github.ioassets/manifest-32df2736.js",
+	"version": "32df2736",
 	"sri": void 0
 };
 //#endregion
@@ -1056,7 +1056,7 @@ var routeDiscovery = {
 	"mode": "lazy",
 	"manifestPath": "/__manifest"
 };
-var publicPath = "/";
+var publicPath = "RizqiRHuda.github.io";
 var entry = { module: entry_server_node_exports };
 var routes = {
 	"root": {
