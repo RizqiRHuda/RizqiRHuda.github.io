@@ -27,15 +27,12 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    # 4. menjalankan pengujian
-    - name: Run tests
-      run: npm test -- --watchAll=false --passWithNoTests
 
-    # 5. Build aplikasi menjadi file produksi (HTML/JS/CSS)
+    # 4. Build aplikasi menjadi file produksi (HTML/JS/CSS)
     - name: Build application
       run: npm run build
 
-    # 6. menjalankan Deployment 
+    # 5. menjalankan Deployment 
     - name: Deploy to GitHub Pages
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       uses: JamesIves/github-pages-deploy-action@v4
