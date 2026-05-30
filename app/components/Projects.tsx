@@ -64,7 +64,7 @@ export function Projects() {
                     <GitHubIcon />
                     Repository
                   </a>
-                  {project.demo && (
+                  {/* {project.demo && (
                     <a
                       href={project.demo}
                       target="_blank"
@@ -74,7 +74,7 @@ export function Projects() {
                       <ExternalLinkIcon />
                       Live Demo
                     </a>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>

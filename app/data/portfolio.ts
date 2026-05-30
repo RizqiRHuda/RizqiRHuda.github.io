@@ -8,22 +8,18 @@ export const personalInfo = {
     "A passionate full-stack developer with experience building modern web applications. I enjoy crafting clean, efficient code and solving complex problems. Always eager to learn new technologies and improve my craft.",
   photoUrl:
     "/img/2141720264.jpg",
-  resumeUrl: "#",
+  resumeUrl: "/Rizqi_Rohmatul_Huda_CV.pdf",
 };
 
 export const skills = [
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Node.js",
-  "Express",
-  "Laravel",
-  "PHP",
-  "Python",
-  "MySQL",
-  "MongoDB",
-  "Tailwind CSS",
-  "Git",
+  "Communication",
+  "Teamwork",
+  "Problem Solving",
+  "Time Management",
+  "Adaptability",
+  "Critical Thinking",
+  "Attention to Detail",
+  "Continuous Learning"
 ];
 
 export const techStack = [
@@ -72,14 +68,13 @@ export const organizations = [
     name: "UKM USAHA MAHASISWA (USMA)",
     period: "2021 - 2023",
     city: "Malang",
+    responsibilities: [
+      "Contributed to the creation of promotional materials and visual branding for student organization events, improving engagement and event visibility.",
+      "Collaborated with event and publication teams to deliver consistent and effective promotional campaigns across multiple platforms.",
+      "Supported the planning and execution of organizational events and activities.",
+      "Assisted in coordinating communication between committee members and participants."
+    ]
   },
-  // {
-  //   id: 2,
-  //   position: "Anggota",
-  //   name: "UKM Robotika",
-  //   period: "2022 - 2023",
-  //   city: "Kota Contoh",
-  // },
 ];
 
 export const experiences = [
@@ -132,7 +127,7 @@ export const projects = [
       "A clinical information system for managing patient treatment records, medicine and disease data, consultation histories, and visualizing healthcare trends over time.",
     image: "/img/klinik.png",
     techStack: ["Laravel", "PHP", "MySQL", "Bootstrap"],
-    repository: "https://github.com/rizqi/ecommerce",
+    repository: "https://github.com/RizqiRHuda",
     demo: "https://ecommerce-demo.vercel.app",
   },
   {
@@ -142,7 +137,7 @@ export const projects = [
       "A web-based chili monitoring system for managing field survey data, tracking chili distribution and pricing trends, visualizing statistical reports, and generating daily survey documentation efficiently.",
     image: "/img/sipare.jpeg",
     techStack: ["Laravel", "PHP", "MySQL", "Bootstrap"],
-    repository: "https://github.com/rizqi/inventory",
+    repository: "https://gitlab.com/RizqiRHuda/panel_harga_pangan",
   },
     {
     id: 3,
@@ -151,7 +146,7 @@ export const projects = [
       "A web-based application designed to support and enhance computational thinking skills, integrated with gamification for primary school students",
     image: "/img/logikid.png",
     techStack: ["Laravel", "MySQL"],
-    repository: "https://github.com/rizqi/portfolio",
+    repository: "https://github.com/RizqiRHuda/logikids",
     demo: "#",
   },
   {
@@ -161,7 +156,7 @@ export const projects = [
       "A website redesign and development project focused on improving the UI/UX, responsiveness, and accessibility of the Bebras Indonesia platform through modern interface design and responsive web implementation using Laravel and Tailwind CSS.",
     image: "/img/bebras.png",
     techStack: ["Laravel", "PHP", "MySQL", "Bootstrap", "Tailwind CSS"],
-    repository: "https://github.com/rizqi/portfolio",
+    repository: "https://github.com/RizqiRHuda/project_bebras",
     demo: "#",
   },
   {
@@ -171,7 +166,7 @@ export const projects = [
       "A web-based personal finance app that helps users manage their personal finances by tracking income and expenditure, setting monthly budgets, visualising financial data, and predicting next month’s expenditure using machine learning.",
     image: "/img/web_dashboard.png",
     techStack: ["React", "Express", "Mongo DB", "python", "Tailwind CSS"],
-    repository: "https://github.com/rizqi/portfolio",
+    repository: "https://github.com/RizqiRHuda/finsight",
     demo: "#",
   },
   // {
