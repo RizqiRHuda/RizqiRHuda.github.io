@@ -1,0 +1,44 @@
+name: React CI/CD Pipeline
+
+# Menjalankan pipeline saat ada push atau PR ke branch main
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. mengambil kode dari repositori
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # 2. menyiapkan lingkungan Node.js
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'npm' # Menghemat waktu build dengan cache
+
+    # 3. menginstall dependencies aplikasi
+    - name: Install dependencies
+      run: npm ci
+
+    # 4. menjalankan pengujian
+    - name: Run tests
+      run: npm test -- --watchAll=false --passWithNoTests
+
+    # 5. Build aplikasi menjadi file produksi (HTML/JS/CSS)
+    - name: Build application
+      run: npm run build
+
+    # 6. menjalankan Deployment 
+    - name: Deploy to GitHub Pages
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: dist 
+        branch: gh-pages
