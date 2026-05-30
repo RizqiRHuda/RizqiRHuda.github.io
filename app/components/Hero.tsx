@@ -62,7 +62,7 @@ export function Hero() {
             <img
               src={personalInfo.photoUrl}
               alt={personalInfo.name}
-              className="relative h-40 w-40 rounded-full object-cover ring-2 ring-blue-100 dark:ring-blue-800 md:h-48 md:w-48"
+              className="relative h-40 w-40 rounded-full object-cover ring-2 ring-blue-100 dark:ring-blue-800 md:min-h-72 md:w-72"
             />
           </div>
         </div>

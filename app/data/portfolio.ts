@@ -89,7 +89,7 @@ export const experiences = [
     company: "PT. Surabaya Autocomp Indonesia",
     type: "Internship",
     period: "January 2024 - June 2024",
-    city: "Jakarta",
+    city: "Mojokerto",
     achievements: [
       "Reduced clinic administrative workload by digitizing medical record management for 6,000+ employees using a Laravel-based system.",
       "Improved operational efficiency by decreasing data entry time by 50% through workflow automation and structured data processing",
