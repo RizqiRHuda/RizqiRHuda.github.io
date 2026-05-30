@@ -11,7 +11,7 @@ import { Footer } from "~/components/Footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Rizqi Rohmatul Huda| Full Stack Developer" },
+    { title: "Rizqi Rohmatul Huda | Full Stack Developer" },
     {
       name: "description",
       content: "Portfolio of Rizqi - Full Stack Developer",
